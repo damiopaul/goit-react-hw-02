@@ -1,0 +1,24 @@
+.container {
+        
+        display: flex;
+        gap: 5px;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+}
+
+.optionButton {
+    
+    padding: 5px;
+    cursor: pointer;
+    background-color: beige;
+    width: 100px;
+    transition: transform 0.5s ease;
+}
+
+.optionButton:hover,
+.optionButton:focus {
+    transform: scale(1.1);
+    background-color: grey;
+    border: none;
+}
